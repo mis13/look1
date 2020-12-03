@@ -1,0 +1,49 @@
+/* Code tidied up by ScrapBook */
+.grid { width: 962px; margin-left: -4px; margin-top: -4px; }
+.grid-r1, .grid-r2, .grid-r3, .grid-r4, .grid-r5, .grid-r6, .grid-r7, .grid-r8, .grid-r9, .grid-r10 { overflow: hidden; }
+.grid-img img { width: 100%; }
+.grid-wrapper.grid-c1 { width: 231px; }
+.grid-wrapper.grid-c2 { width: 462px; }
+.grid-wrapper.grid-c3 { width: 726px; }
+.grid-wrapper.grid-c4 { width: 992px; }
+.grid-child.grid-c1 { width: 233px; }
+.grid-child.grid-c2 { width: 473px; }
+.grid-child.grid-c3 { width: 699px; }
+.grid-child.grid-c4 { width: 932px; }
+.grid-child.grid-r1 { height: 105px; }
+.grid-child.grid-r2 { height: 220px; }
+.grid-child.grid-r3 { height: 335px; }
+.grid-child.grid-r4 { height: 449px; }
+.grid-r1 { height: 105px; }
+.grid-r2 { height: 230px; }
+.grid-r3 { height: 345px; }
+.grid-r4 { height: 460px; }
+.grid-c1 { width: 248px; }
+.grid-c2 { width: 496px; }
+.grid-c3 { width: 744px; }
+.grid-c4 { width: 992px; }
+.grid-child { float: left; margin: 5px; position: relative; }
+.grid-wrapper { float: left; }
+.grid-title { position: absolute; color: rgb(255, 255, 255); font-family: "Fira Sans"; font-weight: 300; font-size: 22px; left: 20px; top: 20px; }
+.grid-child::before { content: ""; width: 100%; height: 100px; display: block; position: absolute; background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(125, 185, 232, 0) 100%) repeat scroll 0% 0%; }
+.grid--subgroups .grid-child { margin: 4px 3px 4px 4px; }
+.grid--subgroups .grid-child.grid-c1 { width: 154px; height: 148px; }
+.grid--subgroups.gr_vanny .grid-child.grid-c1 { width: 130px; height: 126px; }
+.grid--subgroups.gr_mebel-dlja-vannoj .grid-child.grid-c1 { width: 185px; height: 148px; }
+.grid--subgroups.gr_instaljacija .grid-child.grid-c1 { width: 113px; height: 170px; }
+.grid--subgroups.gr_smesiteli .grid-child.grid-c1 { width: 130px; height: 126px; }
+.grid--subgroups.gr_unitazy .grid-child.grid-c1 { width: 185px; height: 166px; }
+.grid--subgroups.gr_bide .grid-child.grid-c1 { width: 185px; height: 166px; }
+.grid--subgroups.gr_santechnika-inzhenernaja .grid-child.grid-c1 { width: 130px; height: 126px; }
+.grid--subgroups.gr_aksessuary-dlja-vannoj .grid-child.grid-c1 { width: 130px; height: 126px; }
+.grid--subgroups.gr_dushevye-poddony .grid-child.grid-c1 { width: 185px; height: 166px; }
+.grid--subgroups.gr_dush .grid-child.grid-c1 { width: 133px; height: 166px; }
+.grid--subgroups.gr_chernaya-santehnika .grid-child.grid-c1 { width: 185px; height: 148px; }
+.grid--subgroups.gr_chernaya-santehnika .grid-child.grid-c1 .grid-img { background-size: contain; }
+.grid--subgroups.grt_3636 .grid-child.grid-c1 .grid-img { background-size: contain; }
+.grid--subgroups .grid-child::before { bottom: 0px; height: 66px; background: rgba(40, 34, 25, 0) linear-gradient(to top, rgba(40, 34, 25, 0.6) 0%, rgba(40, 34, 25, 0) 80%) repeat scroll 0px 0px; transition: all 0.5s ease 0s; }
+.grid--subgroups .grid-child .grid-title { font-size: 14px; font-weight: 400; bottom: 6px; top: auto; left: 10px; transition: all 0.5s ease 0s; }
+.grid--subgroups .grid-child .grid-img { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center bottom; background-size: cover; transition: all 0.5s ease 0s; }
+.grid--subgroups .grid-child:hover::before { height: 78px; background: rgba(40, 34, 25, 0) linear-gradient(to top, rgba(40, 34, 25, 0.9) 0%, rgba(40, 34, 25, 0) 80%) repeat scroll 0px 0px; }
+.grid--subgroups .grid-child:hover .grid-img {  }
+.grid--subgroups .grid-child:hover .grid-title { bottom: 16px; }
